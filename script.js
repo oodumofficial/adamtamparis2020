@@ -8,7 +8,7 @@ slides[2] = 'slide2.mp4';
 slides[3] = 'slide3.mp4';
 slides[4] = 'slide4.mp4';
 slides[5] = 'slide5.mp4';
-slides[6] = 'slide6.mp4';
+slides[7] = 'slide7.mp4';
 
 images[0] = 'img0.png';
 images[1] = 'img1.png';
@@ -17,6 +17,7 @@ images[3] = 'img3.png';
 images[4] = 'img4.png';
 images[5] = 'img5.png';
 images[6] = 'img6.png';
+images[7] = 'img7.png';
 
 function leftArrow() {
     x--;
@@ -35,8 +36,8 @@ function leftArrow() {
 function rightArrow() {
     document.documentElement.requestFullscreen().catch(console.log);
     x++;
-    if (x < 1) {
-        x = 1
+    if (x > 7) {
+        x = 7
     };
     console.log(x);
     document.getElementById('video').loop = false;
