@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+#img {
+    z-index: 1;
+    top: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#video {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+}
