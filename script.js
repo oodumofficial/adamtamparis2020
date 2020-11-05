@@ -40,7 +40,7 @@ function rightArrow() {
     document.getElementById('video').src = slides[x];
     setTimeout(function(){
         document.getElementById('image').src = images[x];
-    }, 400); 
+    }, 3000); 
 };
 
 function switchSlide() {
@@ -48,7 +48,6 @@ function switchSlide() {
     var setSlide = Number.parseInt(askSlide);
     x = (setSlide -1);
 }
-
 
 function changeNum(event) {
     switch (event.keyCode) {
