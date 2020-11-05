@@ -29,7 +29,7 @@ function leftArrow() {
 };
 
 function rightArrow() {
-    //document.documentElement.requestFullscreen().catch(console.log);
+    document.documentElement.requestFullscreen().catch(console.log);
     x++;
     if (x < 1) {
         x = 1
