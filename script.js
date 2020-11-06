@@ -26,7 +26,7 @@ images[7] = 'img7.png';
 images[8] = 'img8.png';
 images[9] = 'img9.png';
 images[10] = 'img10.png';
-images[10] = 'img11.png';
+images[11] = 'img11.png';
 
 function leftArrow() {
     x--;
