@@ -45,8 +45,8 @@ function leftArrow() {
 function rightArrow() {
     document.documentElement.requestFullscreen().catch(console.log);
     x++;
-    if (x > 9) {
-        x = 9
+    if (x > 11) {
+        x = 11;
     };
     console.log(x);
     document.getElementById('video').loop = false;
