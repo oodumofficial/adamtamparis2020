@@ -12,6 +12,7 @@ slides[6] = 'slide6.mp4';
 slides[7] = 'slide7.mp4';
 slides[8] = 'slide8.mp4';
 slides[9] = 'slide9.mp4';
+slides[10] = 'slide10.mp4';
 
 images[0] = 'img0.png';
 images[1] = 'img1.png';
@@ -23,6 +24,7 @@ images[6] = 'img6.png';
 images[7] = 'img7.png';
 images[8] = 'img8.png';
 images[9] = 'img9.png';
+images[10] = 'img10.png';
 
 function leftArrow() {
     x--;
