@@ -31,7 +31,7 @@ images[10] = 'img11.png';
 function leftArrow() {
     x--;
     if (x < 1) {
-        x = 1
+        x = 1;
     };
     console.log(x);
     document.getElementById('video').loop = false;
@@ -45,7 +45,6 @@ function leftArrow() {
 function rightArrow() {
     document.documentElement.requestFullscreen().catch(console.log);
     x++;
-    };
     console.log(x);
     document.getElementById('video').loop = false;
     document.getElementById('video').muted = false;
